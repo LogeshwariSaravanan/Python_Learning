@@ -22,11 +22,12 @@ print(list1)
 
 list2=cities+val+list1
 print(list2)
+print(list2.count(5))
 
 #GETTING LIST ITEM FROM USER
 lst =[]
 for i in range (5):
-  ele = input ()
+  ele = input ("enter the list item ")
   lst.append (ele)
 print (lst)
 
